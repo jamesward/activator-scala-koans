@@ -1,6 +1,8 @@
 package org.functionalkoans.forscala
 
 import support.KoanSuite
+
+@org.scalatest.DoNotDiscover
 class AboutSets extends KoanSuite {
 
   koan("Sets can be created easily") {

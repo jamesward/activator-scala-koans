@@ -4,6 +4,7 @@ import support.KoanSuite
 import language.postfixOps
 import org.scalatest.matchers.ShouldMatchers
 
+@org.scalatest.DoNotDiscover
 class AboutInfixPrefixAndPostfixOperators extends KoanSuite with ShouldMatchers {
 
   koan("""Simple: Infix Operators are available if an object

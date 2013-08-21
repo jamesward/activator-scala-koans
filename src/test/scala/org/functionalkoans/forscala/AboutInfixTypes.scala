@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutInfixTypes extends KoanSuite with ShouldMatchers {
 
   koan("""We can make a type infix, meaning that the type can be displayed in complement

@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import org.functionalkoans.forscala.support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutRepeatedParameters extends KoanSuite {
 
   def repeatedParameterMethod(x: Int, y: String, z: Any*) = {

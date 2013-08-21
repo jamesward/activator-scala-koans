@@ -5,6 +5,7 @@ import support.KoanSuite
 
 class Monkey
 
+@org.scalatest.DoNotDiscover
 class AboutManifests extends KoanSuite with ShouldMatchers {
   koan("""Manifests can be used to determine a type used
          |   before it erased by the VM by using an implicit manifest argument.""") {

@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutValAndVar extends KoanSuite {
 
   koan("vars may be reassigned") {

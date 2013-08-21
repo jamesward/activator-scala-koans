@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutClasses extends KoanSuite {
 
 

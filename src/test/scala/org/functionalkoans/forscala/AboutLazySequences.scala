@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutLazySequences extends KoanSuite {
 
   koan("Creating a lazy collection form a strict collection") {

@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutLiteralStrings extends KoanSuite with ShouldMatchers {
 
   koan("Character Literals are quoted with single quotes") {

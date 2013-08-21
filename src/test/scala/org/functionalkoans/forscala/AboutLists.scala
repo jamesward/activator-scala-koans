@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutLists extends KoanSuite {
 
   koan("Nil lists are identical, even of different types") {

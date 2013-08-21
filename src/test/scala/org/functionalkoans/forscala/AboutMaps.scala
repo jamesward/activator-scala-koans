@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutMaps extends KoanSuite {
 
   koan("Maps can be created easily") {

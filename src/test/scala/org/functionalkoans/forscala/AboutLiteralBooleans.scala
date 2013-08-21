@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutLiteralBooleans extends KoanSuite with ShouldMatchers {
 
   koan("""Boolean literals are either true or false, using the true or false keyword""") {

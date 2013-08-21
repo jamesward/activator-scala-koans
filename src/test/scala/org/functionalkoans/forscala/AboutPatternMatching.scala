@@ -2,11 +2,11 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutPatternMatching extends KoanSuite {
 
 
   koan("Pattern matching returns something") {
-
     val stuff = "blue"
 
     val myStuff = stuff match {

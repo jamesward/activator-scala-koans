@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import scala.collection.mutable
 
+@org.scalatest.DoNotDiscover
 class AboutMutableSets extends KoanSuite {
 
   koan("Mutable sets can be created easily") {

@@ -4,6 +4,7 @@ import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
 // meditate on AboutAsserts to see how the Scala Koans work
+@org.scalatest.DoNotDiscover
 class AboutAsserts extends KoanSuite with ShouldMatchers {
 
   koan("asserts can take a boolean argument") {

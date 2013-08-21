@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutFormatting extends KoanSuite with ShouldMatchers {
 
   koan("String can be placed in format") {

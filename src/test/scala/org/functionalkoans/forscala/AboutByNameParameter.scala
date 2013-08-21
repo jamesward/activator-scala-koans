@@ -8,6 +8,7 @@ import org.functionalkoans.forscala.support.KoanSuite
  * Prerequisites: AboutEither, AboutHigherOrderFunctions, AboutExceptions,
  *                About Pattern Matching, AboutApply
  */
+@org.scalatest.DoNotDiscover
 class AboutByNameParameter extends KoanSuite {
 
   koan(

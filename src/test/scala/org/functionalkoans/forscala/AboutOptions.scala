@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutOptions extends KoanSuite {
 
   koan("Option can have one of two values - Some or None") {

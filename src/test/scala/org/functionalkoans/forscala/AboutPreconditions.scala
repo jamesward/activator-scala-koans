@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutPreconditions extends KoanSuite {
 
   class WithParameterRequirement(val myValue: Int) {

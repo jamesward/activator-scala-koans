@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutForExpressions extends KoanSuite {
 
   koan("For loops can be simple") {

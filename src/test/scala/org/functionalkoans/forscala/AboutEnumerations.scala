@@ -3,7 +3,7 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import org.scalatest.matchers.ShouldMatchers
 
-
+@org.scalatest.DoNotDiscover
 class AboutEnumerations extends KoanSuite with ShouldMatchers {
 
 // To create an enumeration, create an object that extends the abstract class Enumeration,

@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutParentClasses extends KoanSuite {
   koan("Class heirarchy is linear, a class can only extend from one parent class") {
     class Worker(val firstName: String, val lastName: String) {}

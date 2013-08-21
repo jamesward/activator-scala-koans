@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import org.functionalkoans.forscala.support.KoanSuite
 import scala.annotation.tailrec
 
+@org.scalatest.DoNotDiscover
 class AboutRecursion extends KoanSuite {
 
   koan(

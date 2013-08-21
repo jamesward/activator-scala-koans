@@ -10,4 +10,4 @@ scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
 // disable updating dynamic revisions (including -SNAPSHOT versions)
 offline := true
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test" withSources() withJavadoc()
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.0.RC1-SNAP4" % "test" withSources() withJavadoc()

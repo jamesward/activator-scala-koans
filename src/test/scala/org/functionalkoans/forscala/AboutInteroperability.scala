@@ -3,7 +3,7 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import org.scalatest.matchers.ShouldMatchers
 
-
+@org.scalatest.DoNotDiscover
 class AboutInteroperability extends KoanSuite with ShouldMatchers {
   koan("""You can interop with a java class and it's use of collections by importing
           |   scala.collection.JavaConversions and letting scala implicitly convert

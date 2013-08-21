@@ -2,7 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
-
+@org.scalatest.DoNotDiscover
 class AboutEmptyValues extends KoanSuite {
 
   koan("None equals None") {

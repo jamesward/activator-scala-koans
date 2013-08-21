@@ -25,6 +25,7 @@ object Person {
 }
 
 
+@org.scalatest.DoNotDiscover
 class AboutObjects extends KoanSuite {
   koan(
     """An object is a singleton. One object -- that's it. This object is a replacement of static in Java,

@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutTraits extends KoanSuite {
   koan("A class uses the extends keyword to mixin a trait if it is the only relationship the class inherits") {
     case class Event(name: String)

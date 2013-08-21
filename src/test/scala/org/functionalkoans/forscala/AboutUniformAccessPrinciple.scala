@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutUniformAccessPrinciple extends KoanSuite {
 
   class CalculatesAgeUsingMethod(var currentYear: Int, birthYear: Int) {

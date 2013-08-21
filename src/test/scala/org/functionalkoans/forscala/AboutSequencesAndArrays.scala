@@ -2,6 +2,7 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutSequencesAndArrays extends KoanSuite {
 
   koan("A list can be converted to an array") {

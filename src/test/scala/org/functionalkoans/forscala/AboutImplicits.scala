@@ -4,6 +4,7 @@ import org.scalatest.matchers.ShouldMatchers
 import language.implicitConversions
 import support.KoanSuite
 
+@org.scalatest.DoNotDiscover
 class AboutImplicits extends KoanSuite with ShouldMatchers {
 
   koan("""Implicits wrap around existing classes to provide extra functionality

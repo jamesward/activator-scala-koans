@@ -5,6 +5,7 @@ import support.KoanSuite
 import language.postfixOps
 import Stream._
 
+@org.scalatest.DoNotDiscover
 class AboutTraversables extends KoanSuite with ShouldMatchers {
 
 

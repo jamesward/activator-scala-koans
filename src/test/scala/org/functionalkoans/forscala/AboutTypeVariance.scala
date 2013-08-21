@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import org.scalatest.matchers.ShouldMatchers
 
+@org.scalatest.DoNotDiscover
 class AboutTypeVariance extends KoanSuite with ShouldMatchers {
 
   class Fruit

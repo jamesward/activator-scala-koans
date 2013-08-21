@@ -3,6 +3,7 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import org.scalatest.matchers.ShouldMatchers
 
+@org.scalatest.DoNotDiscover
 class AboutPartialFunctions extends KoanSuite with ShouldMatchers {
 
   koan( """A partial function is a trait that when

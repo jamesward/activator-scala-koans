@@ -7,6 +7,10 @@ import language.reflectiveCalls
 object Master extends Stopper {
   var studentNeedsToMeditate = false
 
+  override def requestStop(): Unit = ()
+
+  override def stopRequested: Boolean = false
+  
   override def apply() = studentNeedsToMeditate
 
   type HasTestNameAndSuiteName = {
@@ -23,6 +27,7 @@ object Master extends Stopper {
   private def meditationMessage(event: HasTestNameAndSuiteName) = {
     "Please meditate on koan \"%s\" of suite \"%s\"" format (event.testName, event.suiteName)
   }
+
 
 }
 
